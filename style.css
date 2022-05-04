@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+.first_container{
+    width: 481px;
+    height: 698px;
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.text_container{
+    text-indent: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first_img {
+    background-image: url(https://entrelementos.com/wp-content/uploads/2020/09/1086773.jpg);
+    width: 481px;
+    height: 270px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.first_img h1,.second_container h1{
+    font-size: 30px;
+    margin: 0;
+    color: bisque;
+    text-shadow: 2px 2px 1px black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.second_container {
+    width: 481px;
+    height: 330px;
+    border: 1px solid black;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    text-align: justify;
+}
+
+.second_container:first-child {
+    background-image: url(https://legadodamarvel.com.br/wp-content/uploads/2021/05/invencivel-imagem-omni-man-legadodamarvel.jpg);
+    
+} 
+
+.second_container:last-child {
+    background-image: url(https://i0.wp.com/ptanime.com/wp-content/uploads/2018/10/shingeki_no_kyojin_3_ep48_executioner_from_hell.jpg);
+}
+
+.news_tab{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.inner_tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news_center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
