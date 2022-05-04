@@ -2,6 +2,32 @@ body {
     font-family: 'Roboto Condensed', sans-serif;;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+menu {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0 , 0, 0.2);
+}
+.logo {
+    width: 200px;
+    height: 54px;
+    margin: 33px 0;
+    background-color: aquamarine;
+}
+
+/* Início pág Main */
+
+/* Fim pág Main */
+
+/* Início pág2 */
+
 .first_container{
     width: 481px;
     height: 698px;
@@ -71,6 +97,8 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* Fim pág2 */
 
 
 
