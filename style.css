@@ -64,7 +64,6 @@ nav div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(163, 39, 39, 0.2);
     position: relative;
 }
 
@@ -140,7 +139,8 @@ nav div {
     font-weight: 700;
     color: white;
     text-align: end;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);     
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    z-index: 1;      
 }
 
 /* Fim pág Main */
