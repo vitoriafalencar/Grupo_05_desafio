@@ -219,5 +219,93 @@ nav div {
 
 /* Fim pág2 */
 
+/* desafio_Laura pág2 */
 
+.materiaPrincipal {
+    width: 1000px;
+    margin-bottom: 26px;
+  }
 
+  .batmiranha {
+    height: 500px;
+    width: 1000px;
+  }
+
+  section {
+    width: 60%;
+  }
+
+  .catkiss {
+    height: 400px;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 40%;
+  }
+
+  .janekiss {
+    height: 186px;
+    width: 400px;
+  }
+
+  .miranha {
+    height: 185px;
+    width: 400px;
+    margin-bottom: 26px;
+  }
+  .bat {
+      font-weight: bold;
+      font-size: 30px;
+      background-color: whitesmoke;
+      border: 3px solid black;
+      width: 280px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 620px;
+    }
+    .cat {
+      font-weight: bold;
+      font-size: 22px;
+      background-color: whitesmoke;
+      border: 3px solid black;
+      width: 280px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 1070px;
+    }
+    .aranha {
+      font-weight: bold;
+      font-size: 19px;
+      background-color: whitesmoke;
+      border: 3px solid black;
+      width: 150px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 870px;
+    }
+    .jane {
+      font-weight: bold;
+      font-size: 19px;
+      background-color: whitesmoke;
+      border: 3px solid black;
+      width: 200px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 1090px;
+    }
+/* Fim desafio_Laura */
